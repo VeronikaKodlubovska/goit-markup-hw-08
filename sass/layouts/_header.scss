@@ -119,6 +119,12 @@
     letter-spacing: 0.02em;
 }
 
+.contacts {
+    @media screen and (min-width:768px) and (max-width:1199px) {
+        font-weight: 12px;
+    }
+}
+
 .site-nav__list .site-nav__item:not(:last-child) {
     margin-right: 50px;
 }
@@ -142,6 +148,11 @@
 .contacts__icon {
     fill: currentColor;
     margin-right: 10px;
+
+    @media screen and (min-width:768px) and (max-width:1199px) {
+        width: 16px;
+        height: 16px;
+    }
 
     .contacts__list .link:hover &,
     .contacts__list .link:focus & {

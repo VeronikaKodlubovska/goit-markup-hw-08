@@ -218,6 +218,12 @@ body {
   letter-spacing: 0.02em;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .contacts {
+    font-weight: 12px;
+  }
+}
+
 .site-nav__list .site-nav__item:not(:last-child) {
   margin-right: 50px;
 }
@@ -243,6 +249,12 @@ body {
 .contacts__icon {
   fill: currentColor;
   margin-right: 10px;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .contacts__icon {
+    width: 16px;
+    height: 16px;
+  }
 }
 .contacts__list .link:hover .contacts__icon, .contacts__list .link:focus .contacts__icon {
   fill: currentColor;
