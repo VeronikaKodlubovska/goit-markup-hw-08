@@ -11,6 +11,9 @@
         padding-bottom: 60px;
         text-align: left;
     }
+    @media screen and (min-width:768px) and (max-width:1199px) {
+             height: 463px;;
+         }
 }
 
 
@@ -26,7 +29,11 @@
        align-items: baseline;
        gap: 0px;
     }
+    @media screen and (min-width:768px) and (max-width:1199px) {
+        align-items: baseline;
+    }
 }
+
 
 .page-footer__details {
     @media screen and (min-width:768px) {
